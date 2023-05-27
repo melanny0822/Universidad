@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    width: 100vw;
+}
+
+header{
+    justify-content: space-between;
+    width: 100vw;
+    max-width: auto;
+    min-width: 350px;
+    margin: auto;
+}
+
+#header1{
+    width: 100vw;
+    max-width: auto;
+    min-width: 350px;
+    margin: auto;
+}
+
+header ul {
+    margin-right: 30px;
+    text-align: center;
+    list-style: none;
+
+}
+
+header li {
+    display: inline-block;
+    line-height: 75px;
+    margin: 0px 30px;
+}
+
+header ul li a{
+    background-color: rgb(180, 180, 180);
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: 0.2s;
+    object-fit: cover;
+}
+
+.menu li a:hover{
+    background-color:  rgb(141, 141, 141) ;
+    color: rgb(224, 224, 224);
+    font-size: 22px;
+}
+
+#Noti{
+    padding: 50px
+}
+
+#principal {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#notif {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#Estudia{
+    padding: 50px
+}
+
+#images1{
+    text-align: center;
+}
+
+#images1 img{
+    text-align: center;
+    margin: 100px 0px 100px 0px;
+    margin-inline: 12px;
+    width: 10vw;
+    max-width: auto;
+    min-width: 310px;
+    border-radius: 8px;
+}
+
+#section2 h2{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#section3 p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+}
+
+#imagenes2{
+    text-align: center;
+    margin: 20px;
+}
+
+#imagenes2 img{
+    margin: 70px 0px 100px 0px;
+    margin-inline: 5px;
+    width: 10vw;
+    max-width: auto;
+    min-width: 310px;
+    border-radius: 8px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+#imagenes2 img:hover{
+    transform: scale(1.2);
+}
+
+#imagenes3 img{
+    margin-inline: 10px;
+    width: 10vw;
+    max-width: auto;
+    min-width: 300px;
+    border-radius: 8px;
+}
+
+#inscripcion{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#information{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#footer2{
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+#footer2 a{
+    color: black;
+    text-decoration: none;
+}
+
+#footer2 section{
+    text-align: center;
+}
+
+#redes p{
+    display: inline;
+    margin: 100px 100px 0px 100px;
+}
+
+#footer2 h1{
+    margin-top: 50px;
+}
+
+#footer1{
+    width: 100vw;
+    max-width: auto;
+    min-width: 350px;
+    margin: auto;
+}

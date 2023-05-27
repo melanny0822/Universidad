@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        .form-group {
+            margin-bottom: 10px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>MATRICULAS</title>
+
+    <link rel="stylesheet" href="static/Matriculas.css">
+</head>
+<body bgcolor="#ECF0F1 ">
+
+<section id="header1">
+    <img src="static/images/vice.png" width="1518px">
+</section>
+
+ <center><h1>Formulario de Matrícula</h1>
+
+    <form action="/Matriculas" method="POST">
+        <section id="inputs">
+            <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+
+        <div class="form-group">
+            <label for="facultad">Facultad:</label>
+            <select id="facultad" name="facultad" required>
+                <option value="ingenieria">Facultad de Ingeniería</option>
+                <option value="educacion">Facultad de Educación y Ciencias Sociales</option>
+                <option value="administracion">Facultad de Administración y Ciencias Económicas</option>
+                <option value="derecho">Facultad de Derecho y Ciencias Forenses</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="jornada">Jornada:</label>
+            <select id="jornada" name="jornada" required>
+                <option value="diurna">Diurna</option>
+                <option value="nocturna">Nocturna</option>
+                <option value="mixta">Mixta</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="modalidad">Modalidad:</label>
+            <select id="modalidad" name="modalidad" required>
+                <option value="virtual">Virtual</option>
+                <option value="presencial">Presencial</option>
+            </select>
+        </div>
+        </section>
+
+        <input id="boton1" type="submit" value="Enviar">
+    </form>
+    </center>
+
+    <section id="footer">
+        <img src="static/images/vice2.png" width="1518px">
+    </section>
+
+</body>
+</html>

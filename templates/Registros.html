@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>REGISTROS</title>
+
+    <link rel="stylesheet" href="static/Registros.css">
+</head>
+<body bgcolor="#ECF0F1 ">
+<section id="header1">
+    <img src="static/images/vice.png" width="1518px">
+</section>
+
+   <center> <h1>Formulario de Registro</h1>
+    {% if mensaje %}
+        <p>{{ mensaje }}</p>
+    {% endif %}
+    <form action="/Registros" method="POST">
+
+        <section class="inputs">
+            <section id="input1">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+            </section>
+
+            <section id="input2">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+            </section>
+
+            <section id="input3">
+                <label for="correo">Correo:</label>
+                 <input type="email" id="correo" name="correo" required><br><br>
+            </section>
+
+        <input id="boton1" type="submit" value="Registrarse">
+        </section>
+
+    </form></center>
+
+    <section id="footer">
+        <img src="static/images/vice2.png" width="1518px">
+    </section>
+
+</body>
+</html>

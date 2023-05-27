@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONSULTAS</title>
+
+    <link rel="stylesheet" href="static/Consultas.css">
+</head>
+<body bgcolor="#ECF0F1 ">
+<section id="header1">
+    <img src="static/images/vice.png" width="1518px">
+</section>
+
+<section class="tables">
+    <table id="tabla1">
+    <caption>REGISTROS</caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for registro in registros %}
+        <tr>
+            <td>{{ registro.id }}</td>
+            <td>{{ registro.nombre }}</td>
+            <td>{{ registro.apellido }}</td>
+            <td>{{ registro.correo }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<table id="tabla2">
+    <caption>MATRÍCULAS</caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Facultad</th>
+            <th>Jornada</th>
+            <th>Modalidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for matricula in matriculas %}
+        <tr>
+            <td>{{ matricula.id }}</td>
+            <td>{{ matricula.nombre }}</td>
+            <td>{{ matricula.apellido }}</td>
+            <td>{{ matricula.facultad }}</td>
+            <td>{{ matricula.jornada }}</td>
+            <td>{{ matricula.modalidad }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<table id="tabla3">
+    <caption>PQRS</caption>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tipo</th>
+            <th>Descripción</th>
+            <th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for pqrs_entry in pqrs %}
+        <tr>
+            <td>{{ pqrs_entry.id }}</td>
+            <td>{{ pqrs_entry.tipo }}</td>
+            <td>{{ pqrs_entry.descripcion }}</td>
+            <td>{{ pqrs_entry.fecha }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</section>
+
+<section id="footer2">
+    <img src="static/images/vice2.png" width="1518px">
+</section>
+
+</body>
+</html>

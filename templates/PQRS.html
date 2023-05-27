@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PQRS</title>
+
+    <link rel="stylesheet" href="static/PQRS.css">
+</head>
+<body bgcolor="#ECF0F1">
+
+    <section id="header1">
+        <img src="static/images/vice.png" width="1518px">
+    </section>
+
+    <center>
+        <h1>FORMULARIO DE PQRS</h1>
+        {% for pqrs in pqrs %}
+
+        {% endfor %}
+        <form action="/PQRS" method="POST" >
+            <label for="TIPO">Tipo:</label>
+            <select name="tipo" id="tipo">
+                <option value="PETICION">Peticion</option>
+                <option value="QUEJA">Queja</option>
+                <option value="RECLAMO">Reclamo</option>
+                <option value="SUGERENCIA">Sugerencia</option>
+            </select><br><br>
+            <label id="label1" for="DESCRIPCION">Descripción:</label><br>
+            <textarea name="descripcion" id="descripcion" rows="4" cols="50"></textarea><br><br>
+            <label id="label2" for="FECHA">Fecha:</label><br>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+            <input id="boton1" type="submit" value="Enviar">
+        </form>
+    </center>
+
+    <img src="static/images/vice2.png" width="1518px">
+
+</body>
+</html>

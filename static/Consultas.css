@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+}
+
+#header1 img{
+    width: 100vw;
+    max-width: auto;
+    min-width: 300px;
+    margin: auto;
+}
+
+caption{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    margin-top: 120px;
+
+}
+
+.tables{
+    border-radius: 15px;
+    color:white;
+    margin: 0px 0px 200px 0px;
+}
+
+table{
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto;
+    box-shadow: 0px 3px 5px rgb(15, 15, 15, .5);
+}
+
+#tabla1{
+    background-image: linear-gradient(#722ED8, #19E4C2);
+    padding: 15px;
+    word-spacing: 5px;
+    width: 80vw;
+}
+
+#tabla1 th{
+    padding: 0px 100px;
+}
+
+#tabla2{
+    background-image: linear-gradient(#722ED8, #19E4C2);
+    padding: 15px;
+    word-spacing: 5px;
+    width: 80vw;
+}
+
+#tabla2 th{
+    padding: 0px 60px;
+}
+
+#tabla3{
+    background-image: linear-gradient(#722ED8, #19E4C2);
+    padding: 15px;
+    word-spacing: 3px;
+    width: 80vw;
+}
+
+#tabla3 th{
+    padding: 0px 100px;
+}
+
+td{
+    padding:50px
+}
+
+footer1{
+    margin-top: 200px;
+    background: #722ED8;
+}
+
+#redes{
+    padding: 100px 0px 100px 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#redes p a{
+    display: inline-block;
+    margin: 0px 0px 60px 50px;
+    text-align: center;
+        text-decoration: none;
+    color: white;
+}
+
+@media(max-width: auto){
+    .tables{
+        display: block;
+    }
+}
+
+#footer2 img{
+    width: 100vw;
+    max-width: auto;
+    min-width: 300px;
+    margin: auto;
+}
